@@ -5,6 +5,7 @@ import ElAvatar from './avatar.json'
 import ElBacktop from './backtop.json'
 import ElBadge from './badge.json'
 import ElBreadcrumb from './breadcrumb.json'
+import ElBreadcrumbItem from './breadcrumbItem.json'
 import ElButton from './button.json'
 import ElButtonGroup from './buttonGroup.json'
 import ElCalendar from './calendar.json'
@@ -111,6 +112,7 @@ export function getPropsMap() {
     ElCheckboxButton,
     ElBadge,
     ElBreadcrumb,
+    ElBreadcrumbItem,
     ElCarousel,
     ElCarouselItem,
     ElCollapse,
@@ -449,7 +451,7 @@ export function getComponentMap(isZh: boolean = true) {
           '<el-breadcrumb></el-breadcrumb>',
         ],
         [
-          'el-breadcrumb-item',
+          ElBreadcrumbItem,
           '面包屑项',
           '<el-breadcrumb-item></el-breadcrumb-item>',
         ],
@@ -836,7 +838,7 @@ export function getComponentMap(isZh: boolean = true) {
           '<el-breadcrumb></el-breadcrumb>',
         ],
         [
-          'el-breadcrumb-item',
+          ElBreadcrumbItem,
           'Breadcrumb item',
           '<el-breadcrumb-item></el-breadcrumb-item>',
         ],

@@ -1,0 +1,23 @@
+{
+  "name": "ElBreadcrumbItem",
+  "props": {
+    "to": {
+      "value": "",
+      "description": "路由跳转对象，同 vue-router 的 to",
+      "default": "—",
+      "type": "string / object",
+      "description_zh": "路由跳转对象，同 vue-router 的 to"
+    },
+    "replace": {
+      "value": "",
+      "description": "在使用 to 进行路由跳转时，启用 replace 将不会向 history 添加新记录",
+      "default": "false",
+      "type": "boolean",
+      "description_zh": "在使用 to 进行路由跳转时，启用 replace 将不会向 history 添加新记录"
+    }
+  },
+  "events": [],
+  "link": "https://element.eleme.cn/#/en-US/component/breadcrumb",
+  "link_zh": "https://element.eleme.cn/#/zh-CN/component/breadcrumb",
+  "methods": []
+}
