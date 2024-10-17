@@ -76,7 +76,7 @@
     }
   ],
   "slots": [{
-    "value": "title",
+    "name": "title",
     "description": "The content of the title",
     "description_zh": "标题的内容"
   }],
