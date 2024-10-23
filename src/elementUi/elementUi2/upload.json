@@ -211,7 +211,7 @@
       "description_zh": "提示说明文字"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/upload",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/upload",
+  "link": "https://element.eleme.io/#/en-US/component/upload",
+  "link_zh": "https://element.eleme.io/#/zh-CN/component/upload",
   "events": []
 }

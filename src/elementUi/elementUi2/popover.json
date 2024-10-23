@@ -171,7 +171,7 @@
       "description_zh": "触发 Popover 显示的 HTML 元素"
     }
   ],
-  "link": "https://element.eleme.cn/#/en-US/component/popover",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/popover",
+  "link": "https://element.eleme.io/#/en-US/component/popover",
+  "link_zh": "https://element.eleme.io/#/zh-CN/component/popover",
   "methods": []
 }

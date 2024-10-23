@@ -80,7 +80,7 @@
     "description": "The content of the title",
     "description_zh": "标题的内容"
   }],
-  "link": "https://element.eleme.cn/#/en-US/component/alert",
-  "link_zh": "https://element.eleme.cn/#/zh-CN/component/alert",
+  "link": "https://element.eleme.io/#/en-US/component/alert",
+  "link_zh": "https://element.eleme.io/#/zh-CN/component/alert",
   "methods": []
 }
