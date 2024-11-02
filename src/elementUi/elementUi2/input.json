@@ -9,7 +9,10 @@
       "description": "type",
       "default": "text",
       "type": "string",
-      "description_zh": "类型"
+      "description_zh": "类型",
+      "related": [
+        "el-form.model"
+      ]
     },
     "value": {
       "value": "",
