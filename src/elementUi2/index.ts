@@ -1,3 +1,4 @@
+import directives from '../directives.json'
 import { getComponentMap, getPropsMap } from './mapping'
 
 export function elementUi2() {
@@ -15,5 +16,6 @@ export function elementUi2Components(isZh?: boolean) {
     prefix: 'el',
     lib: 'element-ui',
     isReact: false,
+    directives: directives.elementUi2,
   }
 }

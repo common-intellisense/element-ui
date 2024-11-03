@@ -14,7 +14,10 @@
       "default": "—",
       "type": "string",
       "required": true,
-      "description_zh": "绑定值"
+      "description_zh": "绑定值",
+      "related": [
+        "el-form.model"
+      ]
     },
     "disabled": {
       "value": "",

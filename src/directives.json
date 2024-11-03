@@ -1,0 +1,58 @@
+{
+  "elementUi2": [
+    {
+      "name": "v-loading",
+      "description": "Element 提供了两种调用 Loading 的方法：指令和服务。对于自定义指令v-loading，只需要绑定Boolean即可。默认状况下，Loading 遮罩会插入到绑定元素的子节点，通过添加body修饰符，可以使遮罩插入至 DOM 中的 body 上。",
+      "description_zh": "Element 提供了两种调用 Loading 的方法：指令和服务。对于自定义指令v-loading，只需要绑定Boolean即可。默认状况下，Loading 遮罩会插入到绑定元素的子节点，通过添加body修饰符，可以使遮罩插入至 DOM 中的 body 上。",
+      "documentationType": "Boolean",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/loading",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/loading"
+    },
+    {
+      "name": "v-infinite-scroll",
+      "description": "在要实现滚动加载的列表上上添加v-infinite-scroll，并赋值相应的加载方法，可实现滚动到底部时自动执行加载方法。",
+      "description_zh": "在要实现滚动加载的列表上上添加v-infinite-scroll，并赋值相应的加载方法，可实现滚动到底部时自动执行加载方法。",
+      "documentationType": "v-infinite-scroll=\"load\"",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/infiniteScroll"
+    },
+    {
+      "name": "infinite-scroll-disabled",
+      "description": "v-infinite-scroll: 是否禁用",
+      "description_zh": "v-infinite-scroll: 是否禁用",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "documentationType": "[boolean] default: false"
+    },
+    {
+      "name": "infinite-scroll-delay",
+      "description": "v-infinite-scroll: 节流时延，单位为ms",
+      "description_zh": "v-infinite-scroll: 节流时延，单位为ms",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "documentationType": "[number] default: 200"
+    },
+    {
+      "name": "infinite-scroll-distance",
+      "description": "v-infinite-scroll: 触发加载的距离阈值，单位为px",
+      "description_zh": "v-infinite-scroll: 触发加载的距离阈值，单位为px",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "documentationType": "[number] default: 0"
+    },
+    {
+      "name": "infinite-scroll-immediate",
+      "description": "v-infinite-scroll: 是否立即执行加载方法，以防初始状态下内容无法撑满容器。",
+      "description_zh": "v-infinite-scroll: 是否立即执行加载方法，以防初始状态下内容无法撑满容器。",
+      "params": [],
+      "link": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "link_zh": "https://element.eleme.io/#/zh-CN/component/infiniteScroll",
+      "documentationType": "[boolean] default: true"
+    }
+  ]
+}

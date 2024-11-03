@@ -23,12 +23,16 @@
       "type": "string",
       "description_zh": "输入建议对象中用于显示的键名"
     },
-    "value": {
+    ":v-model": {
       "value": "",
       "description": "Required value, enter the binding value",
       "default": "—",
       "type": "string",
-      "description_zh": "必填值，输入绑定值"
+      "description_zh": "必填值，输入绑定值",
+      "required": true,
+      "related": [
+        "el-form.model"
+      ]
     },
     ":debounce": {
       "value": "",
@@ -52,11 +56,12 @@
       "description_zh": "菜单弹出位置"
     },
     ":fetch-suggestions": {
-      "value": "",
+      "value": "querySearch",
       "description": "Returns an input suggestion method, only when your input suggests data Resolve, by calling callback(data:[]).",
       "default": "—",
       "type": "Function(queryString, callback)",
-      "description_zh": "返回输入建议的方法，仅当你的输入建议数据 resolve 时，通过调用 callback(data:[]) 来返回它"
+      "description_zh": "返回输入建议的方法，仅当你的输入建议数据 resolve 时，通过调用 callback(data:[]) 来返回它",
+      "required": true
     },
     "popper-class": {
       "value": "",

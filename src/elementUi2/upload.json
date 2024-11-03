@@ -103,7 +103,10 @@
       "default": "—",
       "type": "array",
       "description_zh": "上传的文件列表, 例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]",
-      "required": true
+      "required": true,
+      "related": [
+        "el-form.model"
+      ]
     },
     ":http-request": {
       "value": "",

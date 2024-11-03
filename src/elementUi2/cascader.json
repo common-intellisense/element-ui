@@ -1,12 +1,16 @@
 {
   "name": "ElCascader",
   "props": {
-    "v-model": {
+    ":v-model": {
       "value": "",
       "description": "The selected item binds a value",
       "default": "—",
       "type": "default",
-      "description_zh": "选中项绑定值"
+      "description_zh": "选中项绑定值",
+      "required": true,
+      "related": [
+        "el-form.model"
+      ]
     },
     ":options": {
       "value": "",

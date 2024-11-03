@@ -1,1 +1,1 @@
-export * from './elementUi'
+export * from './elementUi2'
