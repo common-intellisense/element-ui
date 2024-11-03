@@ -14,7 +14,10 @@
       "default": "—",
       "type": "boolean | string | number",
       "description_zh": "绑定值",
-      "required": true
+      "required": true,
+      "related": [
+        "el-form.model"
+      ]
     },
     "multiple": {
       "value": "",

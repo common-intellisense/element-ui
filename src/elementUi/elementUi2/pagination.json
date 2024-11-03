@@ -20,7 +20,8 @@
       "description": "Displays the number of entries per page and supports the .sync modifier",
       "default": "—",
       "type": "number",
-      "description_zh": "每页显示条目个数，支持 .sync 修饰符"
+      "description_zh": "每页显示条目个数，支持 .sync 修饰符",
+      "required": true
     },
     ":total": {
       "value": "",
@@ -49,7 +50,8 @@
       "description": "The current number of pages, with support for the .sync modifier",
       "default": "—",
       "type": "number",
-      "description_zh": "当前页数，支持 .sync 修饰符"
+      "description_zh": "当前页数，支持 .sync 修饰符",
+      "required": true
     },
     "layout": {
       "value": "",

@@ -9,10 +9,7 @@
       "description": "type",
       "default": "text",
       "type": "string",
-      "description_zh": "类型",
-      "related": [
-        "el-form.model"
-      ]
+      "description_zh": "类型"
     },
     "value": {
       "value": "",
@@ -27,7 +24,10 @@
       "default": "绑定值",
       "type": "string | number",
       "required": true,
-      "description_zh": "绑定值"
+      "description_zh": "绑定值",
+      "related": [
+        "el-form.model"
+      ]
     },
     ":maxlength": {
       "value": "",

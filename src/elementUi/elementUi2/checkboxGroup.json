@@ -7,7 +7,10 @@
       "default": "—",
       "type": "array",
       "description_zh": "绑定值",
-      "required": true
+      "required": true,
+      "related": [
+        "el-form.model"
+      ]
     },
     "size": {
       "value": ["medium", "small", "mini"],

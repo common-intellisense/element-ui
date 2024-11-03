@@ -14,7 +14,10 @@
       "default": "—",
       "type": "date(DatePicker) | array(DateRangePicker)",
       "required": true,
-      "description_zh": "绑定值"
+      "description_zh": "绑定值",
+      "related": [
+        "el-form.model"
+      ]
     },
     "readonly": {
       "value": "",
