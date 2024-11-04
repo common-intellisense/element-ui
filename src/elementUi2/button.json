@@ -90,5 +90,13 @@
   "link": "https://element.eleme.io/#/en-US/component/button",
   "link_zh": "https://element.eleme.io/#/zh-CN/component/button",
   "methods": [],
-  "events": []
+  "events": [
+    {
+      "name": "click",
+      "description": "Button click event",
+      "params": "event: Event",
+      "description_zh": "按钮点击事件",
+      "required": true
+    }
+  ]
 }

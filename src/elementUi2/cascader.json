@@ -139,7 +139,8 @@
       "description": "Triggered when a node is selected",
       "params": "选中节点的值",
       "description_zh": "当选中节点变化时触发",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "expand-change",

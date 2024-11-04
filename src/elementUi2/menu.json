@@ -107,7 +107,8 @@
       "description": "menu to activate the callback",
       "params": "index: 选中菜单项的 index, indexPath: 选中菜单项的 index path",
       "description_zh": "菜单激活回调",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "open",
