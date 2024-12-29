@@ -30,8 +30,8 @@
       "type": "boolean",
       "description_zh": "是否必填，如不设置，则会根据校验规则自动生成"
     },
-    "rules": {
-      "value": "",
+    ":rules": {
+      "value": "[{ required: true, message: '请输入$1', trigger: '${2|blur,change|}' }]",
       "description": "Form validation rules",
       "default": "—",
       "type": "object",
