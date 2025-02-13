@@ -25,7 +25,7 @@
     "disabled": {
       "value": "",
       "description": "Whether to disable or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否禁用"
     },
@@ -39,7 +39,7 @@
     "checked": {
       "value": "",
       "description": "This option is selected",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "当前是否勾选"
     }

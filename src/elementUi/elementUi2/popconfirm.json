@@ -54,7 +54,7 @@
     "hide-icon": {
       "value": "",
       "description": "Whether to hide the icon",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否隐藏 Icon"
     },

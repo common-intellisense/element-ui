@@ -45,7 +45,7 @@
     "disabled": {
       "value": "",
       "description": "Whether to disable or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否禁用"
     },
@@ -59,14 +59,14 @@
     "show-all-levels": {
       "value": "",
       "description": "Whether or not to display the full path of the selected value in the input box",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "输入框中是否显示选中值的完整路径"
     },
     "collapse-tags": {
       "value": "",
       "description": "Whether to fold the tag in multi-select mode",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "多选模式下是否折叠Tag"
     },
@@ -80,7 +80,7 @@
     "filterable": {
       "value": "",
       "description": "Whether the option is searchable",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否可搜索选项"
     },
