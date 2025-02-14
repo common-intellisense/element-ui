@@ -22,14 +22,14 @@
     "multiple": {
       "value": "",
       "description": "Whether to select more than one",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否多选"
     },
     "disabled": {
       "value": "",
       "description": "Whether to disable or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否禁用"
     },
@@ -61,7 +61,7 @@
     "collapse-tags": {
       "value": "",
       "description": "When multiple selections are made, whether the selected values are displayed in the form of text",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "多选时是否将选中值按文字的形式展示"
     },
@@ -104,14 +104,14 @@
     "filterable": {
       "value": "",
       "description": "Whether it is searchable",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否可搜索"
     },
     "allow-create": {
       "value": "",
       "description": "Whether or not to allow users to create new entries needs to be used with 'filterable'",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否允许用户创建新条目，需配合 `filterable` 使用"
     },
@@ -125,7 +125,7 @@
     "remote": {
       "value": "",
       "description": "Whether it is a remote search",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否为远程搜索"
     },
@@ -139,7 +139,7 @@
     "loading": {
       "value": "",
       "description": "Whether data is being obtained from a remote location",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否正在从远程获取数据"
     },
@@ -174,28 +174,28 @@
     "reserve-keyword": {
       "value": "",
       "description": "If you have multiple selections and are searchable, whether to keep the current search terms after selecting an option",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "多选且可搜索时，是否在选中一个选项后保留当前的搜索关键词"
     },
     "default-first-option": {
       "value": "",
       "description": "Press Enter in the input box and select the first match. Requires use with 'filterable' or 'remote'",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "在输入框按下回车，选择第一个匹配项。需配合 `filterable` 或 `remote` 使用"
     },
     "popper-append-to-body": {
       "value": "",
       "description": "Whether to insert a popover into the body element. If there is a problem with the positioning of the popover, you can set the property to false",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否将弹出框插入至 body 元素。在弹出框的定位出现问题时，可将该属性设置为 false"
     },
     "automatic-dropdown": {
       "value": "",
       "description": "For non-searchable Select, whether the options menu will automatically pop up after the input box gains focus",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "对于不可搜索的 Select，是否在输入框获得焦点后自动弹出选项菜单"
     }

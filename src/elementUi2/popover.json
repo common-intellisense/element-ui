@@ -59,21 +59,21 @@
     "disabled": {
       "value": "",
       "description": "Whether Popover is available",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "Popover 是否可用"
     },
     "value": {
       "value": "",
       "description": "Whether the status is visible or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "状态是否可见"
     },
     ":v-model": {
       "value": "",
       "description": "Whether the status is visible or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "状态是否可见"
     },
@@ -94,7 +94,7 @@
     "visible-arrow": {
       "value": "",
       "description": "Whether or not to display the Tooltip arrow, more parameters can be seen in [vue-popper](https://github.com/element-component/vue-popper)",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否显示 Tooltip 箭头，更多参数可见[Vue-popper](https://github.com/element-component/vue-popper)"
     },

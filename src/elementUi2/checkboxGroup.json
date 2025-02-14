@@ -22,7 +22,7 @@
     "disabled": {
       "value": "",
       "description": "Whether to disable or not",
-      "default": "—",
+      "default": "false",
       "type": "boolean",
       "description_zh": "是否禁用"
     },
