@@ -104,6 +104,7 @@
       "type": "array",
       "description_zh": "上传的文件列表, 例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]",
       "required": true,
+      "$model": "$model.$(el-form-item.label)",
       "related": [
         "el-form.model"
       ]

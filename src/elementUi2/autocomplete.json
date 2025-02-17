@@ -34,6 +34,7 @@
       "type": "string",
       "description_zh": "必填值，输入绑定值",
       "required": true,
+      "$model": "$model.$(el-form-item.label)",
       "related": [
         "el-form.model"
       ]

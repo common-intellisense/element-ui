@@ -8,6 +8,7 @@
       "type": "default",
       "description_zh": "选中项绑定值",
       "required": true,
+      "$model": "$model.$(el-form-item.label)",
       "related": [
         "el-form.model"
       ]

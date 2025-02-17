@@ -8,6 +8,7 @@
       "type": "array",
       "description_zh": "绑定值",
       "required": true,
+      "$model": "$model.$(el-form-item.label)",
       "related": [
         "el-form.model"
       ]

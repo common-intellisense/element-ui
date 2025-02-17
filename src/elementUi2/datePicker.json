@@ -15,6 +15,7 @@
       "type": "date(DatePicker) | array(DateRangePicker)",
       "required": true,
       "description_zh": "绑定值",
+      "$model": "$model.$(el-form-item.label)",
       "related": [
         "el-form.model"
       ]
