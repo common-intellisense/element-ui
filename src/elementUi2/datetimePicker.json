@@ -55,12 +55,16 @@
       "description_zh": "输入框尺寸"
     },
     "placeholder": {
-      "value": "",
+      "value": "请选择",
       "description": "Placeholder content when not in scope",
       "default": "—",
       "type": "string",
       "required": true,
-      "description_zh": "非范围选择时的占位内容"
+      "description_zh": "非范围选择时的占位内容",
+      "$label": "请选择$label",
+      "related": [
+        "el-form-item.label"
+      ]
     },
     "start-placeholder": {
       "value": "",

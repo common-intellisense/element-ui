@@ -2,12 +2,16 @@
   "name": "ElAutocomplete",
   "props": {
     "placeholder": {
-      "value": "",
+      "value": "请输入",
       "description": "Input box placeholder text",
       "default": "—",
       "type": "string",
       "required": true,
-      "description_zh": "输入框占位文本"
+      "description_zh": "输入框占位文本",
+      "$label": "请输入$label",
+      "related": [
+        "el-form-item.label"
+      ]
     },
     "disabled": {
       "value": "",

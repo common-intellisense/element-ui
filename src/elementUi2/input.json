@@ -51,12 +51,16 @@
       "description_zh": "是否显示输入字数统计，只在 type = \"text\" 或 type = \"textarea\" 时有效"
     },
     "placeholder": {
-      "value": "",
+      "value": "请输入",
       "description": "Input box placeholder text",
       "default": "—",
       "type": "string",
       "required": true,
-      "description_zh": "输入框占位文本"
+      "$label": "请输入$label",
+      "description_zh": "输入框占位文本",
+      "related": [
+        "el-form-item.label"
+      ]
     },
     "clearable": {
       "value": "",

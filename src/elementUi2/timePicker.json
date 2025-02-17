@@ -41,19 +41,27 @@
       "description_zh": "是否显示清除按钮"
     },
     "size": {
-      "value": ["medium", "small", "mini"],
+      "value": [
+        "medium",
+        "small",
+        "mini"
+      ],
       "description": "输入框尺寸",
       "default": "—",
       "type": "medium / small / mini",
       "description_zh": "输入框尺寸"
     },
     "placeholder": {
-      "value": "",
+      "value": "请选择",
       "description": "非范围选择时的占位内容",
       "default": "—",
       "type": "string",
       "description_zh": "非范围选择时的占位内容",
-      "required": true
+      "required": true,
+      "$label": "请选择$label",
+      "related": [
+        "el-form-item.label"
+      ]
     },
     "start-placeholder": {
       "value": "",
@@ -84,7 +92,11 @@
       "description_zh": "是否使用箭头进行时间选择，仅对<el-time-picker>有效"
     },
     "align": {
-      "value": ["left", "center", "right"],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
       "description": "对齐方式",
       "default": "left",
       "type": "left / center / right",

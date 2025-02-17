@@ -94,12 +94,16 @@
       "description_zh": "下个主版本弃用"
     },
     "placeholder": {
-      "value": "",
+      "value": "请选择",
       "description": "Placeholders",
       "default": "—",
       "type": "string",
       "required": true,
-      "description_zh": "占位符"
+      "description_zh": "占位符",
+      "$label": "请选择$label",
+      "related": [
+        "el-form-item.label"
+      ]
     },
     "filterable": {
       "value": "",
