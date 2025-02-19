@@ -11,7 +11,7 @@
     ":initial-index": {
       "value": "",
       "description": "The index of the slides that are active in the initial state, starting at 0",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "初始状态激活的幻灯片的索引，从 0 开始"
     },
@@ -23,21 +23,21 @@
         "manual"
       ],
       "description": "How the indicator is triggered",
-      "default": "click",
+      "default": "",
       "type": "string",
       "description_zh": "指示器的触发方式"
     },
     "autoplay": {
       "value": "",
       "description": "Whether or not to switch automatically",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否自动切换"
     },
     ":interval": {
       "value": "",
       "description": "The time interval between automatic switching, in milliseconds",
-      "default": "—",
+      "default": "3000",
       "type": "number",
       "description_zh": "自动切换的时间间隔，单位为毫秒"
     },
@@ -58,7 +58,7 @@
         "never"
       ],
       "description": "Toggles when the arrows are displayed",
-      "default": "always | hover | never",
+      "default": "hover",
       "type": "string",
       "description_zh": "切换箭头的显示时机"
     },
@@ -72,7 +72,7 @@
     "loop": {
       "value": "",
       "description": "Whether to cycle through the display",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否循环显示"
     },
@@ -82,7 +82,7 @@
         "vertical"
       ],
       "description": "The direction of the marquee display",
-      "default": "horizontal | vertical",
+      "default": "horizontal",
       "type": "string",
       "description_zh": "走马灯展示的方向"
     }

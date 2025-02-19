@@ -146,28 +146,28 @@
     "start": {
       "value": "",
       "description": "Start time",
-      "default": "—",
+      "default": "09:00",
       "type": "string",
       "description_zh": "开始时间"
     },
     "end": {
       "value": "",
       "description": "End time",
-      "default": "—",
+      "default": "18:00",
       "type": "string",
       "description_zh": "结束时间"
     },
     "step": {
       "value": "",
       "description": "Interval",
-      "default": "—",
+      "default": "00:30",
       "type": "string",
       "description_zh": "间隔时间"
     },
     "minTime": {
       "value": "",
       "description": "The minimum time, the time period less than that will be disabled",
-      "default": "—",
+      "default": "00:00",
       "type": "string",
       "description_zh": "最小时间，小于该时间的时间段将被禁用"
     },

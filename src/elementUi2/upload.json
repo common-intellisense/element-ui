@@ -33,7 +33,7 @@
     "name": {
       "value": "",
       "description": "The name of the uploaded file field",
-      "default": "—",
+      "default": "file",
       "type": "string",
       "description_zh": "上传的文件字段名"
     },
@@ -47,7 +47,7 @@
     "show-file-list": {
       "value": "",
       "description": "Whether to display a list of uploaded files",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示已上传文件列表"
     },
@@ -86,21 +86,21 @@
         "picture-card"
       ],
       "description": "The type of file list",
-      "default": "text | picture | picture-card",
+      "default": "text",
       "type": "string",
       "description_zh": "文件列表的类型"
     },
     "auto-upload": {
       "value": "",
       "description": "Whether to upload files as soon as they are selected",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否在选取文件后立即进行上传"
     },
     ":file-list": {
       "value": "",
       "description": "List of uploaded files, for example: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]",
-      "default": "—",
+      "default": "[]",
       "type": "array",
       "description_zh": "上传的文件列表, 例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]",
       "required": true,

@@ -23,7 +23,7 @@
         "bottom"
       ],
       "description": "Timestamp location",
-      "default": "top | bottom",
+      "default": "bottom",
       "type": "string",
       "description_zh": "时间戳位置"
     },
@@ -58,7 +58,7 @@
         "large"
       ],
       "description": "Node size",
-      "default": "normal | large",
+      "default": "normal",
       "type": "string",
       "description_zh": "节点尺寸"
     },

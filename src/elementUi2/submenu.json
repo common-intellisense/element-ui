@@ -4,7 +4,7 @@
     "index": {
       "value": "",
       "description": "Unique logo",
-      "default": "—",
+      "default": "null",
       "type": "string | null",
       "description_zh": "唯一标志",
       "required": true
@@ -19,14 +19,14 @@
     ":show-timeout": {
       "value": "",
       "description": "Expand the delay of the sub-menu",
-      "default": "—",
+      "default": "300",
       "type": "number",
       "description_zh": "展开 sub-menu 的延时"
     },
     ":hide-timeout": {
       "value": "",
       "description": "Collapse the delay for the sub-menu",
-      "default": "—",
+      "default": "300",
       "type": "number",
       "description_zh": "收起 sub-menu 的延时"
     },

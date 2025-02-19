@@ -16,7 +16,7 @@
         "small"
       ],
       "description": "Set the size of your avatar",
-      "default": "number | large | medium | small",
+      "default": "large",
       "type": "number | string",
       "description_zh": "设置头像的大小"
     },
@@ -26,7 +26,7 @@
         "square"
       ],
       "description": "Set the shape of your avatar",
-      "default": "circle | square",
+      "default": "circle",
       "type": "string",
       "description_zh": "设置头像的形状"
     },
@@ -62,7 +62,7 @@
         "scale-down"
       ],
       "description": "When the display type is set to Image, set how the image fits into the container box",
-      "default": "fill | contain | cover | none | scale-down",
+      "default": "cover",
       "type": "string",
       "description_zh": "当展示类型为图片的时候，设置图片如何适应容器框"
     },

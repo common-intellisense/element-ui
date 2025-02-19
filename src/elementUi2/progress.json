@@ -16,7 +16,7 @@
         "dashboard"
       ],
       "description": "The type of progress bar",
-      "default": "line | circle | dashboard",
+      "default": "line",
       "type": "string",
       "description_zh": "进度条类型"
     },
@@ -41,7 +41,7 @@
         "warning"
       ],
       "description": "The current status of the progress bar",
-      "default": "success | exception | warning",
+      "default": "",
       "type": "string",
       "description_zh": "进度条当前状态"
     },
@@ -55,14 +55,14 @@
     ":width": {
       "value": "",
       "description": "Circular progress bar canvas width (only available when type is Circle or Dashboard)",
-      "default": "",
+      "default": "126",
       "type": "number",
       "description_zh": "环形进度条画布宽度（只在 type 为 circle 或 dashboard 时可用）"
     },
     "show-text": {
       "value": "",
       "description": "Whether to display the text content of the progress bar",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示进度条文字内容"
     },
@@ -73,7 +73,7 @@
         "square"
       ],
       "description": "circle/dashboard type, shape at both ends of the path",
-      "default": "butt | round | square",
+      "default": "round",
       "type": "string",
       "description_zh": "circle/dashboard 类型路径两端的形状"
     },

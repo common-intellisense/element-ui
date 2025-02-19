@@ -4,7 +4,7 @@
     "title": {
       "value": "",
       "description": "title",
-      "default": "—",
+      "default": "返回",
       "type": "string",
       "description_zh": "标题"
     },

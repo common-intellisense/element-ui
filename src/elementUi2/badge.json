@@ -38,7 +38,7 @@
         "info"
       ],
       "description": "type",
-      "default": "primary | success | warning | danger | info",
+      "default": "",
       "type": "string",
       "description_zh": "类型"
     }

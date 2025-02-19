@@ -151,21 +151,21 @@
     "loading-text": {
       "value": "",
       "description": "The text that is displayed when loaded remotely",
-      "default": "—",
+      "default": "加载中",
       "type": "string",
       "description_zh": "远程加载时显示的文字"
     },
     "no-match-text": {
       "value": "",
       "description": "If the search conditions do not match, you can also use the 'slot=\"empty\"' setting",
-      "default": "—",
+      "default": "无匹配数据",
       "type": "string",
       "description_zh": "搜索条件无匹配时显示的文字，也可以使用`slot=\"empty\"`设置"
     },
     "no-data-text": {
       "value": "",
       "description": "The text that is displayed when the option is empty, you can also use the 'slot=\"empty\" setting",
-      "default": "—",
+      "default": "无数据",
       "type": "string",
       "description_zh": "选项为空时显示的文字，也可以使用`slot=\"empty\"`设置"
     },
@@ -193,7 +193,7 @@
     "popper-append-to-body": {
       "value": "",
       "description": "Whether to insert a popover into the body element. If there is a problem with the positioning of the popover, you can set the property to false",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否将弹出框插入至 body 元素。在弹出框的定位出现问题时，可将该属性设置为 false"
     },

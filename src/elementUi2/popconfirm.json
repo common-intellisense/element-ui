@@ -26,28 +26,28 @@
     "confirm-button-type": {
       "value": "",
       "description": "Confirm the button type",
-      "default": "—",
+      "default": "Primary",
       "type": "string",
       "description_zh": "确认按钮类型"
     },
     "cancel-button-type": {
       "value": "",
       "description": "Cancel button type",
-      "default": "—",
+      "default": "Text",
       "type": "string",
       "description_zh": "取消按钮类型"
     },
     "icon": {
       "value": "",
       "description": "Icon",
-      "default": "—",
+      "default": "el-icon-question",
       "type": "string",
       "description_zh": "图标"
     },
     "icon-color": {
       "value": "",
       "description": "Icon color",
-      "default": "—",
+      "default": "#f90",
       "type": "string",
       "description_zh": "Icon 颜色"
     },

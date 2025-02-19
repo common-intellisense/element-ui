@@ -22,7 +22,7 @@
         "border-card"
       ],
       "description": "Type of style",
-      "default": "card | border-card",
+      "default": "",
       "type": "string",
       "description_zh": "风格类型"
     },
@@ -55,7 +55,7 @@
         "left"
       ],
       "description": "The location of the tab",
-      "default": "top | right | bottom | left",
+      "default": "top",
       "type": "string",
       "description_zh": "选项卡所在位置"
     },

@@ -18,7 +18,7 @@
     ":page-size": {
       "value": "",
       "description": "Displays the number of entries per page and supports the .sync modifier",
-      "default": "—",
+      "default": "10",
       "type": "number",
       "description_zh": "每页显示条目个数，支持 .sync 修饰符",
       "required": true
@@ -40,15 +40,15 @@
     },
     ":pager-count": {
       "value": "",
-      "description": "The number of page number buttons, which collapses when the total number of pages exceeds this value",
-      "default": "大于等于 5 且小于等于 21 的奇数",
+      "description": "The number of page buttons, which will be folded when the total number of pages exceeds this value (an odd number greater than or equal to 5 and less than or equal to 21)",
+      "default": "7",
       "type": "number",
-      "description_zh": "页码按钮的数量，当总页数超过该值时会折叠"
+      "description_zh": "页码按钮的数量，当总页数超过该值时会折叠 (大于等于 5 且小于等于 21 的奇数)"
     },
     ":current-page": {
       "value": "",
       "description": "The current number of pages, with support for the .sync modifier",
-      "default": "—",
+      "default": "1",
       "type": "number",
       "description_zh": "当前页数，支持 .sync 修饰符",
       "required": true
@@ -64,7 +64,7 @@
     ":page-sizes": {
       "value": "",
       "description": "Option settings for the number of display selectors per page",
-      "default": "—",
+      "default": "[10, 20, 30, 40, 50, 100]",
       "type": "number[]",
       "description_zh": "每页显示个数选择器的选项设置"
     },

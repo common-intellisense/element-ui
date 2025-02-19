@@ -47,7 +47,7 @@
     "show-message": {
       "value": "",
       "description": "Whether a verification error message is displayed",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示校验错误信息"
     },

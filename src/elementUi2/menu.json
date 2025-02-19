@@ -7,7 +7,7 @@
         "vertical"
       ],
       "description": "mode",
-      "default": "horizontal | vertical",
+      "default": "vertical",
       "type": "string",
       "description_zh": "模式"
     },
@@ -21,21 +21,21 @@
     "background-color": {
       "value": "",
       "description": "Background color of the menu (hex format only)",
-      "default": "—",
+      "default": "#ffffff",
       "type": "string",
       "description_zh": "菜单的背景色（仅支持 hex 格式）"
     },
     "text-color": {
       "value": "",
       "description": "Text color for menus (hex format only)",
-      "default": "—",
+      "default": "#303133",
       "type": "string",
       "description_zh": "菜单的文字颜色（仅支持 hex 格式）"
     },
     "active-text-color": {
       "value": "",
       "description": "The text color of the currently active menu (hex format only)",
-      "default": "—",
+      "default": "#409EFF",
       "type": "string",
       "description_zh": "当前激活菜单的文字颜色（仅支持 hex 格式）"
     },
@@ -66,7 +66,7 @@
         "click"
       ],
       "description": "How to trigger a submenu opening (only works when mode is horizontal)",
-      "default": "hover | click",
+      "default": "hover",
       "type": "string",
       "description_zh": "子菜单打开的触发方式(只在 mode 为 horizontal 时有效)"
     },
@@ -80,7 +80,7 @@
     "collapse-transition": {
       "value": "",
       "description": "Whether to turn on the collapse animation",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否开启折叠动画"
     }

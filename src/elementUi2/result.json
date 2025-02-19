@@ -24,7 +24,7 @@
         "error"
       ],
       "description": "Icon type",
-      "default": "success | warning | info | error",
+      "default": "info",
       "type": "string",
       "description_zh": "图标类型"
     }

@@ -44,14 +44,14 @@
     "text-color": {
       "value": "",
       "description": "The color of the text when the checkbox is activated in the form of a button",
-      "default": "—",
+      "default": "#ffffff",
       "type": "string",
       "description_zh": "按钮形式的 Checkbox 激活时的文本颜色"
     },
     "fill": {
       "value": "",
       "description": "The color of the fill and border when the checkbox in the form of a button is activated",
-      "default": "—",
+      "default": "#409EFF",
       "type": "string",
       "description_zh": "按钮形式的 Checkbox 激活时的填充色和边框色"
     }

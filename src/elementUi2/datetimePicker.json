@@ -37,14 +37,14 @@
     "editable": {
       "value": "",
       "description": "Text boxes can be entered",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "文本框可输入"
     },
     "clearable": {
       "value": "",
       "description": "Whether or not to display a clear button",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示清除按钮"
     },
@@ -99,7 +99,7 @@
         "daterange"
       ],
       "description": "Display type",
-      "default": "year | month | date | week | datetime | datetimerange | daterange",
+      "default": "date",
       "type": "string",
       "description_zh": "显示类型"
     },
@@ -121,7 +121,7 @@
         "right"
       ],
       "description": "Alignment",
-      "default": "left, center, right",
+      "default": "left",
       "type": "string",
       "description_zh": "对齐方式"
     },
@@ -135,7 +135,7 @@
     ":picker-options": {
       "value": "",
       "description": "Refer to the following table for options specific to the current time date selector",
-      "default": "—",
+      "default": "{}",
       "type": "object",
       "description_zh": "当前时间日期选择器特有的选项参考下表"
     },
@@ -188,14 +188,14 @@
     "prefix-icon": {
       "value": "",
       "description": "Customize the class name of the head icon",
-      "default": "—",
+      "default": "el-icon-date",
       "type": "string",
       "description_zh": "自定义头部图标的类名"
     },
     "clear-icon": {
       "value": "",
       "description": "Customize the class name of the clear icon",
-      "default": "—",
+      "default": "el-icon-circle-close",
       "type": "string",
       "description_zh": "自定义清空图标的类名"
     }

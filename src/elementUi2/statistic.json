@@ -19,7 +19,7 @@
     ":formatter": {
       "value": "",
       "description": "Custom numerical display",
-      "default": "—",
+      "default": "HH:mm:ss",
       "type": "v-slot |({value}) => VNode",
       "description_zh": "自定义数值展示"
     },

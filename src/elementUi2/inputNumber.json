@@ -83,16 +83,31 @@
       "type": "boolean",
       "description_zh": "禁用"
     },
-    "size": {
+    "controls": {
+      "value": "",
+      "description": "Whether to display the control button",
+      "default": "true",
+      "type": "boolean",
+      "description_zh": "是否使用控制按钮"
+    },
+    "controls-position": {
       "value": [
-        "medium",
-        "small",
-        "mini"
+        "right"
       ],
-      "description": "Input box header icon",
+      "description": "Control button position",
       "default": "—",
       "type": "string",
-      "description_zh": "输入框头部图标"
+      "description_zh": "控制按钮位置"
+    },
+    "size": {
+      "value": [
+        "large",
+        "small"
+      ],
+      "description": "Counter size",
+      "default": "—",
+      "type": "string",
+      "description_zh": "计数器尺寸"
     },
     "prefix-icon": {
       "value": "",
@@ -149,14 +164,14 @@
     "max": {
       "value": "",
       "description": "Native attributes, set the maximum value",
-      "default": "—",
+      "default": "Infinity",
       "type": "string",
       "description_zh": "原生属性，设置最大值"
     },
     "min": {
       "value": "",
       "description": "Native attributes, set the minimum value",
-      "default": "—",
+      "default": "-Infinity",
       "type": "string",
       "description_zh": "原生属性，设置最小值"
     },

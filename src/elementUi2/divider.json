@@ -7,7 +7,7 @@
         "vertical"
       ],
       "description": "Sets the direction of the dividing line",
-      "default": "horizontal | vertical",
+      "default": "horizontal",
       "type": "string",
       "description_zh": "设置分割线方向"
     },
@@ -18,7 +18,7 @@
         "center"
       ],
       "description": "Set the location of the dividing line copy",
-      "default": "left | right | center",
+      "default": "center",
       "type": "string",
       "description_zh": "设置分割线文案的位置"
     }

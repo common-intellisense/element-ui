@@ -11,7 +11,7 @@
     ":v-model": {
       "value": "",
       "description": "Binding value",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "绑定值",
       "required": true,
@@ -23,14 +23,14 @@
     ":min": {
       "value": "",
       "description": "minimum",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "最小值"
     },
     ":max": {
       "value": "",
       "description": "maximum",
-      "default": "—",
+      "default": "100",
       "type": "number",
       "description_zh": "最大值"
     },
@@ -44,7 +44,7 @@
     ":step": {
       "value": "",
       "description": "Step",
-      "default": "—",
+      "default": "1",
       "type": "number",
       "description_zh": "步长"
     },
@@ -70,7 +70,7 @@
         "mini"
       ],
       "description": "Enter the dimensions of the box",
-      "default": "large | medium | small | mini",
+      "default": "small",
       "type": "string",
       "description_zh": "输入框的尺寸"
     },
@@ -84,7 +84,7 @@
     "show-tooltip": {
       "value": "",
       "description": "Whether to display the tooltip",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示 tooltip"
     },
@@ -126,7 +126,7 @@
     ":debounce": {
       "value": "",
       "description": "The debounce delay on input, in milliseconds, is only valid when 'show-input' is equal to true",
-      "default": "—",
+      "default": "300",
       "type": "number",
       "description_zh": "输入时的去抖延迟，毫秒，仅在`show-input`等于true时有效"
     },

@@ -4,14 +4,14 @@
     ":value": {
       "value": "",
       "description": "Binding value",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "绑定值"
     },
     ":v-model": {
       "value": "",
       "description": "Binding value",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "绑定值",
       "required": true,
@@ -23,7 +23,7 @@
     ":max": {
       "value": "",
       "description": "Maximum score",
-      "default": "—",
+      "default": "5",
       "type": "number",
       "description_zh": "最大分值"
     },
@@ -44,42 +44,42 @@
     ":low-threshold": {
       "value": "",
       "description": "The cut-off values for low and medium scores, and the values themselves are divided into low scores",
-      "default": "—",
+      "default": "2",
       "type": "number",
       "description_zh": "低分和中等分数的界限值，值本身被划分在低分中"
     },
     ":high-threshold": {
       "value": "",
       "description": "The cut-off value for the high and medium scores, and the value itself is divided into the high score",
-      "default": "—",
+      "default": "4",
       "type": "number",
       "description_zh": "高分和中等分数的界限值，值本身被划分在高分中"
     },
     ":colors": {
       "value": "",
       "description": "icon. If you pass in an array, there are 3 elements, which are the colors corresponding to the 3 segments; If you pass in an object, you can customize the segment, the key name is the boundary value of the segment, and the key value is the corresponding color",
-      "default": "—",
+      "default": "['#F7BA2A', '#F7BA2A', '#F7BA2A']",
       "type": "array | object",
       "description_zh": "icon 的颜色。若传入数组，共有 3 个元素，为 3 个分段所对应的颜色；若传入对象，可自定义分段，键名为分段的界限值，键值为对应的颜色"
     },
     "void-color": {
       "value": "",
       "description": "The color of the icon is unchecked",
-      "default": "—",
+      "default": "#C6D1DE",
       "type": "string",
       "description_zh": "未选中 icon 的颜色"
     },
     "disabled-void-color": {
       "value": "",
       "description": "The color of the icon is not selected when read-only",
-      "default": "—",
+      "default": "#EFF2F7",
       "type": "string",
       "description_zh": "只读时未选中 icon 的颜色"
     },
     ":icon-classes": {
       "value": "",
       "description": "icon. If you pass in an array, there are 3 elements, which are the class names corresponding to the 3 segments; If you pass in an object, you can customize the segment, the key name is the boundary value of the segment, and the key value is the corresponding class name",
-      "default": "—",
+      "default": "['el-icon-star-on', 'el-icon-star-on','el-icon-star-on']",
       "type": "array | object",
       "description_zh": "icon 的类名。若传入数组，共有 3 个元素，为 3 个分段所对应的类名；若传入对象，可自定义分段，键名为分段的界限值，键值为对应的类名"
     },
@@ -93,7 +93,7 @@
     "disabled-void-icon-class": {
       "value": "",
       "description": "The class name of icon is not selected when read-only",
-      "default": "—",
+      "default": "el-icon-star-on",
       "type": "string",
       "description_zh": "只读时未选中 icon 的类名"
     },
@@ -114,21 +114,21 @@
     "text-color": {
       "value": "",
       "description": "The color of the secondary text",
-      "default": "—",
+      "default": "#1F2D3D",
       "type": "string",
       "description_zh": "辅助文字的颜色"
     },
     ":texts": {
       "value": "",
       "description": "Auxiliary text arrays",
-      "default": "—",
+      "default": "['极差', '失望', '一般', '满意', '惊喜']",
       "type": "array",
       "description_zh": "辅助文字数组"
     },
     "score-template": {
       "value": "",
       "description": "Score display template",
-      "default": "—",
+      "default": "{value}",
       "type": "string",
       "description_zh": "分数显示模板"
     }

@@ -37,22 +37,22 @@
     "editable": {
       "value": "",
       "description": "Text boxes can be entered",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "文本框可输入"
     },
     "clearable": {
       "value": "",
       "description": "Whether or not to display a clear button",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示清除按钮"
     },
     "size": {
       "value": "",
       "description": "Enter the size of the field",
-      "default": "large, small, mini",
-      "type": "string",
+      "default": "",
+      "type": "large / small / mini",
       "description_zh": "输入框尺寸"
     },
     "placeholder": {
@@ -95,7 +95,7 @@
         "monthrange"
       ],
       "description": "Display type",
-      "default": "year | month | date | dates | months | years week | datetime | datetimerange | daterange | monthrange",
+      "default": "date",
       "type": "string",
       "description_zh": "显示类型"
     },
@@ -117,7 +117,7 @@
         "right"
       ],
       "description": "Alignment",
-      "default": "left, center, right",
+      "default": "left",
       "type": "string",
       "description_zh": "对齐方式"
     },
@@ -131,7 +131,7 @@
     ":picker-options": {
       "value": "",
       "description": "Refer to the following table for options specific to the current time date selector",
-      "default": "—",
+      "default": "{}",
       "type": "object",
       "description_zh": "当前时间日期选择器特有的选项参考下表"
     },
@@ -184,28 +184,28 @@
     "prefix-icon": {
       "value": "",
       "description": "Customize the class name of the head icon",
-      "default": "—",
+      "default": "el-icon-date",
       "type": "string",
       "description_zh": "自定义头部图标的类名"
     },
     "clear-icon": {
       "value": "",
       "description": "Customize the class name of the clear icon",
-      "default": "—",
+      "default": "el-icon-circle-close",
       "type": "string",
       "description_zh": "自定义清空图标的类名"
     },
     "validate-event": {
       "value": "",
       "description": "Whether the validation of the form is triggered when input",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "输入时是否触发表单的校验"
     },
     "append-to-body": {
       "value": "",
       "description": "Whether the DatePicker itself is inserted on the body element.",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "DatePicker 自身是否插入至 body 元素上。"
     }

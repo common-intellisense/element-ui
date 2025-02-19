@@ -9,7 +9,7 @@
         "manual"
       ],
       "description": "Trigger mode",
-      "default": "click | focus | hover | manual",
+      "default": "click",
       "type": "string",
       "description_zh": "触发方式"
     },
@@ -31,10 +31,10 @@
     },
     "width": {
       "value": "",
-      "description": "width",
+      "description": "Minimum width 150px",
       "default": "—",
       "type": "String, Number",
-      "description_zh": "宽度"
+      "description_zh": "最小宽度 150px"
     },
     "placement": {
       "value": [
@@ -52,7 +52,7 @@
         "right-end"
       ],
       "description": "Location of appearance",
-      "default": "top | top-start | top-end | bottom | bottom-start | bottom-end | left | left-start | left-end | right | right-start | right-end",
+      "default": "bottom",
       "type": "string",
       "description_zh": "出现位置"
     },
@@ -80,21 +80,21 @@
     "offset": {
       "value": "",
       "description": "The offset of the occurrence position",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "出现位置的偏移量"
     },
     "transition": {
       "value": "",
       "description": "Define the gradient animation",
-      "default": "—",
+      "default": "fade-in-linear",
       "type": "string",
       "description_zh": "定义渐变动画"
     },
     "visible-arrow": {
       "value": "",
       "description": "Whether or not to display the Tooltip arrow, more parameters can be seen in [vue-popper](https://github.com/element-component/vue-popper)",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示 Tooltip 箭头，更多参数可见[Vue-popper](https://github.com/element-component/vue-popper)"
     },
@@ -122,14 +122,14 @@
     ":close-delay": {
       "value": "",
       "description": "Hidden delay in milliseconds when triggered by hover",
-      "default": "—",
+      "default": "200",
       "type": "number",
       "description_zh": "触发方式为 hover 时的隐藏延迟，单位为毫秒"
     },
     ":tabindex": {
       "value": "",
       "description": "[tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) for the Popover component",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "Popover 组件的 [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)"
     }

@@ -14,14 +14,14 @@
         "horizontal"
       ],
       "description": "Display orientation",
-      "default": "vertical | horizontal",
+      "default": "horizontal",
       "type": "string",
       "description_zh": "显示方向"
     },
     ":active": {
       "value": "",
       "description": "Sets the current activation step",
-      "default": "—",
+      "default": "0",
       "type": "number",
       "description_zh": "设置当前激活步骤",
       "required": true
@@ -35,7 +35,7 @@
         "success"
       ],
       "description": "Sets the status of the current step",
-      "default": "wait | process | finish | error | success",
+      "default": "process",
       "type": "string",
       "description_zh": "设置当前步骤的状态"
     },
@@ -48,7 +48,7 @@
         "success"
       ],
       "description": "Sets the status of the end step",
-      "default": "wait | process | finish | error | success",
+      "default": "finish",
       "type": "string",
       "description_zh": "设置结束步骤的状态"
     },

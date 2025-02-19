@@ -34,7 +34,7 @@
     "render-after-expand": {
       "value": "",
       "description": "Whether to render a tree node after its children are first expanded",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否在第一次展开某个树节点后才渲染其子节点"
     },
@@ -69,7 +69,7 @@
     "expand-on-click-node": {
       "value": "",
       "description": "Whether to expand or contract a node when clicking on a node, the default value is true, if false, the node will only be expanded or contracted when the arrow icon is clicked.",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否在点击节点的时候展开或者收缩节点， 默认值为 true，如果为 false，则只有点箭头图标的时候才会展开或者收缩节点。"
     },
@@ -83,7 +83,7 @@
     "auto-expand-parent": {
       "value": "",
       "description": "Whether the parent node is automatically expanded when the child node is expanded",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "展开子节点的时候是否自动展开父节点"
     },
@@ -139,7 +139,7 @@
     ":indent": {
       "value": "",
       "description": "Horizontal indentation between adjacent nodes, in pixels",
-      "default": "—",
+      "default": "16",
       "type": "number",
       "description_zh": "相邻级节点间的水平缩进，单位为像素"
     },

@@ -82,7 +82,7 @@
     "separator": {
       "value": "",
       "description": "Option separator",
-      "default": "—",
+      "default": "/",
       "type": "string",
       "description_zh": "选项分隔符"
     },
@@ -103,7 +103,7 @@
     ":debounce": {
       "value": "",
       "description": "The debounce delay of the search keyword input, in milliseconds",
-      "default": "—",
+      "default": "300",
       "type": "number",
       "description_zh": "搜索关键词输入的去抖延迟，毫秒"
     },

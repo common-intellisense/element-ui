@@ -26,7 +26,7 @@
     "first-day-of-week": {
       "value": ["1", "2", "3", "4", "5", "6", "7"],
       "description": "Start of the week",
-      "default": "1 到 7",
+      "default": "1",
       "type": "number",
       "description_zh": "周起始日"
     },

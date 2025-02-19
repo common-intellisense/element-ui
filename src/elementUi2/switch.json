@@ -30,7 +30,7 @@
     ":width": {
       "value": "",
       "description": "Width of the switch (pixels)",
-      "default": "—",
+      "default": "40",
       "type": "number",
       "description_zh": "switch 的宽度（像素）"
     },
@@ -65,7 +65,7 @@
     "active-value": {
       "value": "",
       "description": "The value when the switch is on",
-      "default": "—",
+      "default": "true",
       "type": "boolean | string | number",
       "description_zh": "switch 打开时的值"
     },
@@ -79,14 +79,14 @@
     "active-color": {
       "value": "",
       "description": "The background color of the switch when it is turned on",
-      "default": "—",
+      "default": "#409EFF",
       "type": "string",
       "description_zh": "switch 打开时的背景色"
     },
     "inactive-color": {
       "value": "",
       "description": "The background color when the switch is off",
-      "default": "—",
+      "default": "#C0CCDA",
       "type": "string",
       "description_zh": "switch 关闭时的背景色"
     },
@@ -100,7 +100,7 @@
     "validate-event": {
       "value": "",
       "description": "Whether to trigger the verification of the form when the switch state is changed",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "改变 switch 状态时是否触发表单的校验"
     }

@@ -59,7 +59,7 @@
         "plain"
       ],
       "description": "topic",
-      "default": "dark | light | plain",
+      "default": "light",
       "type": "string",
       "description_zh": "主题"
     }

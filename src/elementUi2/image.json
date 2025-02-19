@@ -18,7 +18,7 @@
         "scale-down"
       ],
       "description": "Determine how the image fits into the container box, the same as native [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)",
-      "default": "fill | contain | cover | none | scale-down",
+      "default": "",
       "type": "string",
       "description_zh": "确定图片如何适应容器框，同原生 [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)"
     },
@@ -47,7 +47,7 @@
     "scroll-container": {
       "value": "",
       "description": "After lazy loading is enabled, listen to the container for scroll events",
-      "default": "—",
+      "default": "最近一个 overflow 值为 auto 或 scroll 的父元素",
       "type": "string | HTMLElement",
       "description_zh": "开启懒加载后，监听 scroll 事件的容器"
     },
@@ -61,7 +61,7 @@
     ":z-index": {
       "value": "",
       "description": "Set the z-index of the image preview",
-      "default": "—",
+      "default": "2000",
       "type": "number",
       "description_zh": "设置图片预览的 z-index"
     },
