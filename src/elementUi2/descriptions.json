@@ -21,7 +21,7 @@
         "horizontal"
       ],
       "description": "The direction of the arrangement",
-      "default": "vertical | horizontal",
+      "default": "horizontal",
       "type": "string",
       "description_zh": "排列的方向"
     },
@@ -32,7 +32,7 @@
         "mini"
       ],
       "description": "The dimensions of the list",
-      "default": "medium | small | mini",
+      "default": "",
       "type": "string",
       "description_zh": "列表的尺寸"
     },
@@ -54,7 +54,7 @@
     "colon": {
       "value": "",
       "description": "Whether or not to display a colon",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "是否显示冒号"
     },

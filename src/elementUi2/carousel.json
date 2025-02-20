@@ -47,7 +47,7 @@
         "none"
       ],
       "description": "The location of the indicator",
-      "default": "outside | none",
+      "default": "",
       "type": "string",
       "description_zh": "指示器的位置"
     },

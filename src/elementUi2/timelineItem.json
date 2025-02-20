@@ -36,7 +36,7 @@
         "info"
       ],
       "description": "Node type",
-      "default": "primary | success | warning | danger | info",
+      "default": "",
       "type": "string",
       "description_zh": "节点类型"
     },
@@ -48,7 +48,7 @@
         "rgb"
       ],
       "description": "Node color",
-      "default": "hsl | hsv | hex | rgb",
+      "default": "",
       "type": "string",
       "description_zh": "节点颜色"
     },

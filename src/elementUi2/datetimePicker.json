@@ -51,7 +51,7 @@
     "size": {
       "value": ["large", "small", "mini"],
       "description": "Enter the size of the field",
-      "default": "large, small, mini",
+      "default": "",
       "type": "string",
       "description_zh": "输入框尺寸"
     },

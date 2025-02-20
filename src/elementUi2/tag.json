@@ -9,7 +9,7 @@
         "danger"
       ],
       "description": "type",
-      "default": "success | info | warning | danger",
+      "default": "",
       "type": "string",
       "description_zh": "类型"
     },
@@ -48,7 +48,7 @@
         "mini"
       ],
       "description": "size",
-      "default": "medium | small | mini",
+      "default": "",
       "type": "string",
       "description_zh": "尺寸"
     },

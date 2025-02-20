@@ -59,7 +59,7 @@
         "mini"
       ],
       "description": "The size of the checkbox, which is only valid if the border is true",
-      "default": "medium | small | mini",
+      "default": "",
       "type": "string",
       "description_zh": "Checkbox 的尺寸，仅在 border 为真时有效"
     },

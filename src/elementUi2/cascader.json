@@ -35,14 +35,14 @@
         "mini"
       ],
       "description": "size",
-      "default": "medium | small | mini",
+      "default": "",
       "type": "string",
       "description_zh": "尺寸"
     },
     "placeholder": {
-      "value": "请选择",
+      "value": "",
       "description": "Input box placeholder text",
-      "default": "—",
+      "default": "请选择",
       "type": "string",
       "required": true,
       "description_zh": "输入框占位文本",
@@ -68,7 +68,7 @@
     "show-all-levels": {
       "value": "",
       "description": "Whether or not to display the full path of the selected value in the input box",
-      "default": "false",
+      "default": "true",
       "type": "boolean",
       "description_zh": "输入框中是否显示选中值的完整路径"
     },

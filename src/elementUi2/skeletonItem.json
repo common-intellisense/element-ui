@@ -14,7 +14,7 @@
         "rect"
       ],
       "description": "The style of the placeholder element that is currently displayed",
-      "default": "p | h1 | h3 | text | caption | button | image | circle | rect",
+      "default": "text",
       "type": "Enum(string)",
       "description_zh": "当前显示的占位元素的样式"
     }
