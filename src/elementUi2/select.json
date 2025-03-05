@@ -15,7 +15,7 @@
       "type": "boolean | string | number",
       "description_zh": "绑定值",
       "required": true,
-      "$model": "$model.$(el-form-item.label)",
+      "$model": "$model.$(el-form-item.prop || el-form-item.label)",
       "related": [
         "el-form.model"
       ]
