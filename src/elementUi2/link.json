@@ -29,7 +29,7 @@
       "description_zh": "是否禁用状态"
     },
     "href": {
-      "value": "",
+      "value": "/",
       "description": "Native href attribute",
       "default": "—",
       "type": "string",
